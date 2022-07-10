@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/hero.jpg";
-import heroimg from '../../public/images/mypics2.jpeg'
+import heroimg from '../../public/images/heroimg.png'
 import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
@@ -21,8 +21,8 @@ const Hero = () => {
               <p>
                 Efficient and results-oriented professional with 3 years of experience in demanding environments focused on
                 producing cutting-edge systems for the IT and financial remittance industry. Proven knowledge of advanced
-                technology, application development and network distribution software with a background in iOS and Android mobile
-                application development using the React Native framework. Contributing as a key team player to multi-team
+                technology, application development and network distribution software with a backgrounds in Web devlopment, iOS and Android mobile
+                application development using the React,Vue and React Native frameworks. Contributing as a key team player to multi-team
                 development projects in full software development lifecycle using agile methodologies in achieving 100%
                 development objectives.
               </p>
@@ -32,7 +32,7 @@ const Hero = () => {
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="#">Download Resume</Link>
                 </button>
               </div>
             </div>

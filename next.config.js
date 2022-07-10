@@ -1,6 +1,59 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/github',
+        destination: 'https://github.com/BamgboyeTaiwo',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/Instagram',
+        destination: '#',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/twitter',
+        destination: 'https://twitter.com/BamgboyeTeee',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/linkledin',
+        destination: 'https://www.linkedin.com/in/taiwo-bamgboye/',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/wakandacrm',
+        destination: 'https://wakanda-business-5vsah2g61-bamgboyetaiwo.vercel.app',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/wakandacommunity',
+        destination: 'https://wakanda.community/',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/edgetechies',
+        destination: 'http://edgetechies.com',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/superjara',
+        destination: 'https://www.superjara.com',
+        permanent: false,
+        basePath: false, 
+      },
+      
+    ]
+  },
 }
 
 module.exports = nextConfig
