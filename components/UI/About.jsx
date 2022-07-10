@@ -4,10 +4,16 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+// import img01 from "../../public/images/img-01.jpg";
+// import img02 from "../../public/images/img-02.jpg";
+// import img03 from "../../public/images/img-03.jpg";
+// import img04 from "../../public/images/hero.jpg";
+
+import img01 from "../../public/images/ab1.png";
+import img02 from "../../public/images/ab2.png";
+import img03 from "../../public/images/ab3.png";
+import img04 from "../../public/images/heroimg.webp";
+
 
 import classes from "../../styles/about.module.css";
 
@@ -21,11 +27,14 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              Frontend Developer with a keen eye for design and every pixel accuracy...
+
+              Have a project ?, let's build. Also open to learning opportunities :)
+              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
               neque asperiores temporibus quo saepe odio, esse labore libero
               obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
               ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              cum excepturi beatae. */}
             </p>
 
             <div className=" d-flex align-items-center gap-5">
