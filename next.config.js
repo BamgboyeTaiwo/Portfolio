@@ -51,7 +51,12 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       },
-      
+      {
+        source: '/moviewebsite',
+        destination: ' https://universalmovies.netlify.app/',
+        permanent: false,
+        basePath: false, 
+      },  
     ]
   },
 }
