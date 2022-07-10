@@ -37,8 +37,76 @@ const Services = () => {
             </p>
 
             <h1>Skills</h1>
+            <div className="sm:hidden lg:flex">
+              <div className="flex flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  React/Next
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  ReactNative
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  Vue/Nuxt
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Django</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Angular</span>
+              </div>
+              <div className="flex mt-[0.5rem] flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Typescript</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Docker</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Firebase</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
+                  Mongo/Mongoosedb
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>MySQL</span>
+              </div>
+              <div className="flex mt-[0.5rem] flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
+                  Node/express
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Php</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>python</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Git/Github</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>React</span>
+              </div>
+            </div>
 
-            <span className={`${classes.portfolio__keyword}`}>React</span>
+            <div className="sm:block lg:hidden">
+              <div className="flex flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  React/Next
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  ReactNative
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
+                  Vue/Nuxt
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Django</span>
+              </div>
+              <div className="flex mt-[0.5rem] flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Angular</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Typescript</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Docker</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Firebase</span>
+              </div>
+              <div className="flex mt-[0.5rem] flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>MySQL</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
+                  Node/express
+                </span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Php</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>python</span>
+              </div>
+              <div className="flex mt-[0.5rem] flex-row">
+
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Git/Github</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>React</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
+                  Mongo/Mongoosedb
+                </span>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

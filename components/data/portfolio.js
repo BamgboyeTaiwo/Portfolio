@@ -116,7 +116,7 @@ const portfolio = [
     title: "Wakanda CRM",
     img: "/images/wakandacrm.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind", "scss","Firebase", "Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
     liveUrl: "/wakandacrm",
   },
   {
