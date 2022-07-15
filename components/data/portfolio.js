@@ -57,7 +57,7 @@ const portfolio = [
     title: "Puzzle Finance APP",
     img: "/images/puzzlem.webp",
     category: "Mobile App",
-    keyword: ["Mobile", "ReactNative", "Tailwind", "Nodejs", "Firebase" , "Typescript"],
+    keyword: ["Mobile", "ReactNative", "Tailwind", "Nodejs","Typescript"],
     liveUrl: "#",
   },
   {

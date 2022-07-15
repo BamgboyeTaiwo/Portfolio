@@ -37,7 +37,7 @@ const Services = () => {
             </p>
 
             <h1>Skills</h1>
-            <div className="sm:hidden lg:flex">
+            <div className="sm:hidden lg:block">
               <div className="flex flex-row">
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 sm:text-sm border-[#01d293] text-white px-3`}>
                   React/Next
@@ -84,6 +84,7 @@ const Services = () => {
                 </span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Django</span>
               </div>
+              
               <div className="flex mt-[0.5rem] flex-row">
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Angular</span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Typescript</span>
@@ -98,6 +99,7 @@ const Services = () => {
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Php</span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>python</span>
               </div>
+
               <div className="flex mt-[0.5rem] flex-row">
 
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Git/Github</span>

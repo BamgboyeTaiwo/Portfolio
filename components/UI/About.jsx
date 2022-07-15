@@ -10,8 +10,8 @@ import Image from "next/image";
 // import img04 from "../../public/images/hero.jpg";
 
 import img01 from "../../public/images/ab1.png";
-import img02 from "../../public/images/ab2.png";
-import img03 from "../../public/images/ab3.png";
+import img02 from "../../public/images/ab2.webp";
+import img03 from "../../public/images/ab3.webp";
 import img04 from "../../public/images/heroimg.webp";
 
 
@@ -77,7 +77,7 @@ const About = () => {
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="/resume">Download resume</Link>
               </button>
             </div>
           </Col>

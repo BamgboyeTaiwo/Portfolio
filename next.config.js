@@ -57,6 +57,14 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       },  
+      {
+        source: '/resume',
+        destination: 'https://drive.google.com/file/d/1k-J0iH5fyzfCZ1_xrgob9FfDrJr2vvAz/view?usp=sharing',
+        permanent: false,
+        basePath: false, 
+      }, 
+
+      
     ]
   },
 }
