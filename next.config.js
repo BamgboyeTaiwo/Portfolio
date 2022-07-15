@@ -62,6 +62,12 @@ const nextConfig = {
         destination: 'https://drive.google.com/file/d/1k-J0iH5fyzfCZ1_xrgob9FfDrJr2vvAz/view?usp=sharing',
         permanent: false,
         basePath: false, 
+      },
+      {
+        source: '/nfthub',
+        destination: ' https://nfthub-nine.vercel.app',
+        permanent: false,
+        basePath: false, 
       }, 
 
       

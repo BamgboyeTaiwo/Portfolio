@@ -149,7 +149,7 @@ const portfolio = [
     img: "/images/nfthub.png",
     category: "Web Design",
     keyword: ["Web", "React", "Typescript", "Chaktra", "Tailwind"],
-    liveUrl: "#",
+    liveUrl: "/nfthub",
   },
   {
     id: "12",
