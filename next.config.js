@@ -68,8 +68,20 @@ const nextConfig = {
         destination: ' https://nfthub-nine.vercel.app',
         permanent: false,
         basePath: false, 
+      },
+      {
+        source: '/wakandapp',
+        destination: 'https://play.google.com/store/apps/details?id=com.african_founders.Wakanda',
+        permanent: false,
+        basePath: false, 
       }, 
-
+      {
+        source: '/ebimarketapp',
+        destination: 'https://play.google.com/store/apps/details?id=com.ebimarketplaceapp.ebimarketplace',
+        permanent: false,
+        basePath: false, 
+      }, 
+      
       
     ]
   },
