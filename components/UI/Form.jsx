@@ -6,7 +6,7 @@ const Form = () => {
     e.preventDefault();
   };
   return (
-    <form netlify className={`${classes.form}`} data-netlify="true" name="contact'" onSubmit={submitHandler}>
+    <form method="POST" className={`${classes.form}`} data-netlify="true" name="contact'" onSubmit={submitHandler} netlify>
       <div className={`${classes.form__group}`}>
         <input type="text" placeholder="Your Name" required />
       </div>
