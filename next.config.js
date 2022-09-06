@@ -29,7 +29,13 @@ const nextConfig = {
       },
       {
         source: '/wakandacrm',
-        destination: 'https://wakanda-business-5vsah2g61-bamgboyetaiwo.vercel.app',
+        destination: 'https://wakanda-business.vercel.app',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/wakandabusiness',
+        destination: 'https://6315d1b039ad2000083bae56--exquisite-parfait-febe3b.netlify.app/',
         permanent: false,
         basePath: false, 
       },
@@ -77,6 +83,12 @@ const nextConfig = {
       }, 
       {
         source: '/ebimarketapp',
+        destination: 'https://play.google.com/store/apps/details?id=com.ebimarketplaceapp.ebimarketplace',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/payment_hoob',
         destination: 'https://play.google.com/store/apps/details?id=com.ebimarketplaceapp.ebimarketplace',
         permanent: false,
         basePath: false, 

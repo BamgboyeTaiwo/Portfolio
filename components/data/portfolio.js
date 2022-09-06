@@ -130,12 +130,20 @@ const portfolio = [
   //   liveUrl: "#",
   // },
   {
-    id: "10",
+    id: "9",
     title: "Wakanda CRM",
-    img: "/images/wakandacrm.webp",
+    img: "/images/wakandacrm0.png",
     category: "Web Design",
     keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
     liveUrl: "/wakandacrm",
+  },
+  {
+    id: "10",
+    title: "Wakanda Business",
+    img: "/images/wakandacrm.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/wakandabusiness",
   },
   {
     id: "11",
@@ -152,6 +160,14 @@ const portfolio = [
     category: "Web Design",
     keyword: ["Web", "React", "Axios", "css"],
     liveUrl: "/moviewebsite",
+  },
+  {
+    id: "14",
+    title: "Payment_hoob Website",
+    img: "/images/payment_hoob.webp",
+    category: "Web Design",
+    keyword: ["Web", "React", "Axios", "css"],
+    liveUrl: "/payment_hoob",
   },
   {
     id: "14",
