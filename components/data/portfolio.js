@@ -135,7 +135,8 @@ const portfolio = [
     img: "/images/wakandacrm0.png",
     category: "Web Design",
     keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
-    liveUrl: "/wakandacrm",
+    // liveUrl: "/wakandacrm",
+    liveUrl: "#",
   },
   {
     id: "10",
