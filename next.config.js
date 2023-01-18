@@ -93,6 +93,20 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       }, 
+      {
+        source: '/interpocket',
+        destination: 'https://play.google.com/store/apps/details?id=com.interpocket.v1',
+        permanent: false,
+        basePath: false, 
+      },
+      {
+        source: '/cydene',
+        destination: 'https://play.google.com/store/apps/details?id=com.cydeneexpress',
+        permanent: false,
+        basePath: false, 
+      }, 
+      
+      
       
       
     ]
