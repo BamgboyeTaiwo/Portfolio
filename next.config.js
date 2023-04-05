@@ -105,10 +105,6 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       }, 
-      
-      
-      
-      
     ]
   },
 }
