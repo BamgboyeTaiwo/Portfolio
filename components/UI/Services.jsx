@@ -68,6 +68,7 @@ const Services = () => {
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>python</span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Git/Github</span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>React</span>
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Docker</span>
               </div>
             </div>
 
@@ -106,6 +107,12 @@ const Services = () => {
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>Git/Github</span>
                 <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
                   Mongo/Mongoosedb
+                </span>
+              </div>
+
+              <div className="flex mt-[0.5rem] flex-row">
+                <span className={`py-1 mx-1 rounded-md bg-[#171f38] border-2 border-[#01d293] text-white px-3`}>
+                  Docker
                 </span>
               </div>
             </div>

@@ -36,7 +36,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+2340854589151</p>
+                <p>+2347045101305</p>
               </li>
             </ul>
 
