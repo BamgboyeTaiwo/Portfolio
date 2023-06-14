@@ -25,7 +25,7 @@ const About = () => {
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <h3 className="mb-4">to help with your next project</h3>
             <p>
               Software developer(frontend heavy) with a keen eye for design and every pixel accuracy...
 
