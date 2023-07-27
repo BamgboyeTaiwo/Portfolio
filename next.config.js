@@ -29,13 +29,13 @@ const nextConfig = {
       },
       {
         source: '/wakandacrm',
-        destination: 'https://wakanda-business.vercel.app',
+        destination: 'https://wakanda-crm.vercel.app',
         permanent: false,
         basePath: false, 
       },
       {
         source: '/wakandabusiness',
-        destination: 'https://6315d1b039ad2000083bae56--exquisite-parfait-febe3b.netlify.app/',
+        destination: 'https://www.wakanda-business.com/',
         permanent: false,
         basePath: false, 
       },
