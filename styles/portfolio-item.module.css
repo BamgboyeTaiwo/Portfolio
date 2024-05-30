@@ -23,12 +23,21 @@
 }
 
 .portfolio__keyword {
+  /* padding: 5px 10px;
+  color: #fff;
+  background: #808dad68;
+  font-size: 0.7rem;
+  margin-right: 10px;
+  border-radius: 5px; */
   padding: 5px 10px;
   color: #fff;
   background: #808dad68;
   font-size: 0.7rem;
   margin-right: 10px;
   border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
+  max-width: calc(50% - 10px);
 }
 
 .portfolio__live {

@@ -105,6 +105,25 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       }, 
+
+      {
+        source: '/pureworker',
+        destination: 'https://play.google.com/store/apps/details?id=com.pure_worker_app',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/crestbase',
+        destination: 'https://play.google.com/store/apps/details?id=com.crestbase.crestbasemobileapp&pcampaignid=web_share',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/liveeasy',
+        destination: 'https://play.google.com/store/apps/details?id=com.simplepark.live_easy',
+        permanent: false,
+        basePath: false, 
+      }, 
     ]
   },
 }
