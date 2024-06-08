@@ -193,7 +193,7 @@ const portfolio = [
     category: "Web Design",
     keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
     // liveUrl: "/wakandacrm",
-    liveUrl: "#",
+    liveUrl: "/wakandacrm",
   },
   {
     id: "10",
@@ -203,6 +203,23 @@ const portfolio = [
     keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
     liveUrl: "/wakandabusiness",
   },
+
+  {
+    id: "16",
+    title: "Pureworker",
+    img: "/images/pureworkerweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/pureworkerweb",
+  },
+    {
+    id: "17",
+    title: "Nairaboom",
+    img: "/images/nairaboomweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/nairaboom",
+  },
   {
     id: "11",
     title: "Edgetechies",
@@ -211,6 +228,39 @@ const portfolio = [
     keyword: ["Web", "Vue/Nuxtjs", "scss"],
     liveUrl: "/edgetechies",
   },
+  {
+    id: "17",
+    title: "Cowris",
+    img: "/images/cowrisweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/cowrisweb",
+  },
+  {
+    id: "17",
+    title: "Kudeeexpress",
+    img: "/images/kudeeexpressweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/kudeeexpressweb",
+  },
+  {
+    id: "17",
+    title: "Crestbase",
+    img: "/images/mycrestbaseweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/crestbaseweb",
+  },
+  {
+    id: "17",
+    title: "Saldams",
+    img: "/images/saldamsweb.webp",
+    category: "Web Design",
+    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    liveUrl: "/saldamsLogistics",
+  },
+
   {
     id: "13",
     title: "Movies Website",

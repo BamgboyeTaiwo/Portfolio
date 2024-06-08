@@ -20,7 +20,7 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Taiwo Bamgboye</h2>
               <h5 className="mb-4">Fullstack Developer(Frontend Heavy)</h5>
               <p>
-                Efficient and results-oriented professional with about 4 years of experience in demanding environments focused on
+                Efficient and results-oriented professional with about 5 years of experience in demanding environments focused on
                 producing cutting-edge systems for the IT and financial remittance industry. Proven knowledge of advanced
                 technology, application development and network distribution software with a backgrounds in Web devlopment, iOS and Android mobile
                 application development using the React,Vue and React Native frameworks. Contributing as a key team player to multi-team

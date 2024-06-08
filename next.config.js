@@ -29,7 +29,7 @@ const nextConfig = {
       },
       {
         source: '/wakandacrm',
-        destination: 'https://wakanda-crm.vercel.app',
+        destination: 'https://app.wakanda-business.com/signin',
         permanent: false,
         basePath: false, 
       },
@@ -63,6 +63,45 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       },  
+      //Newww web
+      {
+        source: '/pureworkerweb',
+        destination: ' https://pureworker.com/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/cowrisweb',
+        destination: ' https://www.cowris.com/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/kudeeexpressweb',
+        destination: ' https://kudeeexpress.com/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/crestbaseweb',
+        destination: ' https://www.mycrestbase.com/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/nairaboom',
+        destination: ' https://nairaboom.ng/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/saldamsLogistics',
+        destination: 'https://saldamslogistical.com/',
+        permanent: false,
+        basePath: false, 
+      }, 
+      
+      //----------
       {
         source: '/resume',
         destination: 'https://drive.google.com/file/d/1k-J0iH5fyzfCZ1_xrgob9FfDrJr2vvAz/view?usp=sharing',
