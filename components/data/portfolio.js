@@ -75,15 +75,7 @@ const portfolio = [
     img: "/images/notavailable.webp",
     category: "Mobile App",
     keyword: ["Mobile", "ReactNative", "Nodejs", "Php", "Firebase"],
-    liveUrl: "#",
-  },
-  {
-    id: "011",
-    title: "Cydene APP",
-    img: "/images/cydene.webp",
-    category: "Mobile App",
-    keyword: ["Mobile", "ReactNative", "C++", "Nodejs", "Firebase"],
-    liveUrl: "/cydene",
+    liveUrl: "/cowrisapp",
   },
   {
     id: "011",
@@ -95,11 +87,28 @@ const portfolio = [
   },
   {
     id: "011",
+    title: "Cydene APP",
+    img: "/images/cydene.webp",
+    category: "Mobile App",
+    keyword: ["Mobile", "ReactNative", "C++", "Nodejs", "Firebase"],
+    liveUrl: "/cydene",
+  },
+
+  {
+    id: "011",
     title: "Crestbase",
     img: "/images/crestbase.webp",
     category: "Mobile App",
     keyword: ["Mobile", "ReactNative", "expressjs", "mongo", "Firebase"],
     liveUrl: "/crestbase",
+  },
+  {
+    id: "016",
+    title: "Interpocket",
+    img: "/images/interpocket.png",
+    category: "Mobile App",
+    keyword: ["ReactNative", "Nodejs", "Firebase","Typescript"],
+    liveUrl: "/interpocket",
   },
   //Newapps up
   {
@@ -125,14 +134,6 @@ const portfolio = [
     category: "Mobile App",
     keyword: ["Mobile", "ReactNative", "Nodejs", "Firebase"],
     liveUrl: "/ebimarketapp",
-  },
-  {
-    id: "016",
-    title: "Interpocket",
-    img: "/images/interpocket.png",
-    category: "Mobile App",
-    keyword: ["ReactNative", "Nodejs", "Firebase","Typescript"],
-    liveUrl: "/interpocket",
   },
   {
     id: "014",

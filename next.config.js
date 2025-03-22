@@ -84,7 +84,7 @@ const nextConfig = {
       }, 
       {
         source: '/crestbaseweb',
-        destination: ' https://www.mycrestbase.com/',
+        destination: ' https://crestbasehq.com/',
         permanent: false,
         basePath: false, 
       }, 
@@ -100,7 +100,6 @@ const nextConfig = {
         permanent: false,
         basePath: false, 
       }, 
-      
       //----------
       {
         source: '/resume',
@@ -160,6 +159,12 @@ const nextConfig = {
       {
         source: '/liveeasy',
         destination: 'https://play.google.com/store/apps/details?id=com.simplepark.live_easy',
+        permanent: false,
+        basePath: false, 
+      }, 
+      {
+        source: '/cowrisapp',
+        destination: 'https://play.google.com/store/apps/details?id=com.cowris',
         permanent: false,
         basePath: false, 
       }, 
