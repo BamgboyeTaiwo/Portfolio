@@ -72,7 +72,7 @@ const portfolio = [
   {
     id: "011",
     title: "Cowris Mobile",
-    img: "/images/notavailable.webp",
+    img: "/images/cowris_p.webp",
     category: "Mobile App",
     keyword: ["Mobile", "ReactNative", "Nodejs", "Php", "Firebase"],
     liveUrl: "/cowrisapp",
@@ -80,20 +80,11 @@ const portfolio = [
   {
     id: "011",
     title: "PowerUp",
-    img: "/images/notavailable.webp",
+    img: "/images/powerup_web.webp",
     category: "Mobile App",
     keyword: ["Mobile", "ReactNative", "Nodejs", "Firebase"],
     liveUrl: "#",
   },
-  {
-    id: "011",
-    title: "Cydene APP",
-    img: "/images/cydene.webp",
-    category: "Mobile App",
-    keyword: ["Mobile", "ReactNative", "C++", "Nodejs", "Firebase"],
-    liveUrl: "/cydene",
-  },
-
   {
     id: "011",
     title: "Crestbase",
@@ -111,6 +102,14 @@ const portfolio = [
     liveUrl: "/interpocket",
   },
   //Newapps up
+  {
+    id: "011",
+    title: "Cydene APP",
+    img: "/images/cydene.webp",
+    category: "Mobile App",
+    keyword: ["Mobile", "ReactNative", "C++", "Nodejs", "Firebase"],
+    liveUrl: "/cydene",
+  },
   {
     id: "011",
     title: "Wakanda APP",
