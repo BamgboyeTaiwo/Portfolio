@@ -42,7 +42,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroimg} width="400" height="400" />
+              <Image alt="hero-image" src={heroimg} width="450" height="450" />
 
               <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
