@@ -103,7 +103,7 @@ const nextConfig = {
       //----------
       {
         source: '/resume',
-        destination: 'https://drive.google.com/file/d/1-9kKB9_htMjpeCsI3tN2AKjtJu81P-Ak/view?usp=sharing',
+        destination: 'https://drive.google.com/file/d/1A0NB0oUfPFWFePJpGePl8-5dc4voH8Sx/view?usp=sharing',
         permanent: false,
         basePath: false, 
       },
