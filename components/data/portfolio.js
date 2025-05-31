@@ -55,6 +55,14 @@ const portfolio = [
 
   {
     id: "011",
+    title: "PowerUp",
+    img: "/images/powerup_web.webp",
+    category: "Mobile App",
+    keyword: ["Mobile", "ReactNative", "Nodejs", "Firebase"],
+    liveUrl: "/powerupapp",
+  },
+  {
+    id: "011",
     title: "Pureworker",
     img: "/images/pureworker.webp",
     category: "Mobile App",
@@ -77,14 +85,15 @@ const portfolio = [
     keyword: ["Mobile", "ReactNative", "Nodejs", "Php", "Firebase"],
     liveUrl: "/cowrisapp",
   },
-  {
+    {
     id: "011",
-    title: "PowerUp",
-    img: "/images/powerup_web.webp",
+    title: "Wakanda Business",
+    img: "/images/wakandabusiness.webp",
     category: "Mobile App",
-    keyword: ["Mobile", "ReactNative", "Nodejs", "Firebase"],
-    liveUrl: "#",
+    keyword: ["Mobile", "ReactNative", "Nodejs", 'C++', "Firebase"],
+    liveUrl: "/wakandabusinessapp",
   },
+
   {
     id: "011",
     title: "Crestbase",
@@ -98,7 +107,7 @@ const portfolio = [
     title: "Interpocket",
     img: "/images/interpocket.png",
     category: "Mobile App",
-    keyword: ["ReactNative", "Nodejs", "Firebase","Typescript"],
+    keyword: ["ReactNative", "Nodejs", "Firebase", "Typescript"],
     liveUrl: "/interpocket",
   },
   //Newapps up
@@ -123,7 +132,7 @@ const portfolio = [
     title: "Puzzle Finance APP",
     img: "/images/puzzlem.webp",
     category: "Mobile App",
-    keyword: ["ReactNative", "Tailwind", "Nodejs","Typescript"],
+    keyword: ["ReactNative", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "#",
   },
   {
@@ -147,7 +156,7 @@ const portfolio = [
     title: "ZeroWaste App",
     img: "/images/zerowaste.webp",
     category: "Mobile App",
-    keyword: ["ReactNative", "Nodejs", "Firebase","Typescript"],
+    keyword: ["ReactNative", "Nodejs", "Firebase", "Typescript"],
     liveUrl: "#",
   },
   // {
@@ -158,7 +167,6 @@ const portfolio = [
   //   keyword: ["Mobile", "Flutter", "Dart", "Firebase"],
   //   liveUrl: "#",
   // },
-
 
   // {
   //   id: "07",
@@ -191,7 +199,7 @@ const portfolio = [
     title: "Wakanda CRM",
     img: "/images/wakandacrm0.png",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     // liveUrl: "/wakandacrm",
     liveUrl: "/wakandacrm",
   },
@@ -200,7 +208,7 @@ const portfolio = [
     title: "Wakanda Business",
     img: "/images/wakandacrm.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/wakandabusiness",
   },
 
@@ -209,15 +217,15 @@ const portfolio = [
     title: "Pureworker",
     img: "/images/pureworkerweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/pureworkerweb",
   },
-    {
+  {
     id: "17",
     title: "Nairaboom",
     img: "/images/nairaboomweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/nairaboom",
   },
   {
@@ -233,7 +241,7 @@ const portfolio = [
     title: "Cowris",
     img: "/images/cowrisweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/cowrisweb",
   },
   {
@@ -241,7 +249,7 @@ const portfolio = [
     title: "Kudeeexpress",
     img: "/images/kudeeexpressweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/kudeeexpressweb",
   },
   {
@@ -249,7 +257,7 @@ const portfolio = [
     title: "Crestbase",
     img: "/images/mycrestbaseweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/crestbaseweb",
   },
   {
@@ -257,7 +265,7 @@ const portfolio = [
     title: "Saldams",
     img: "/images/saldamsweb.webp",
     category: "Web Design",
-    keyword: ["Web", "Nextjs", "Tailwind","Nodejs", "Typescript"],
+    keyword: ["Web", "Nextjs", "Tailwind", "Nodejs", "Typescript"],
     liveUrl: "/saldamsLogistics",
   },
 
@@ -301,7 +309,6 @@ const portfolio = [
     keyword: ["Web", "Vue/Nuxtjs", "scss"],
     liveUrl: "/wakandacommunity",
   },
-
 ];
 
 export default portfolio;
