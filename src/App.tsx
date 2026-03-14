@@ -5,7 +5,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 
-const queryClient = new QueryClient();
+// Created outside the component so the instance is never recreated on re-renders
+const queryClient = new QueryClient({
+  defaultOptions: { queries: { staleTime: Infinity, retry: false } },
+});
 
 const App = () => (
   <QueryClientProvider client={queryClient}>

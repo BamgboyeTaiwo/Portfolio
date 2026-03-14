@@ -19,6 +19,10 @@ const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
+                  width={800}
+                  height={450}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -30,7 +34,20 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <p className="text-sm text-muted-foreground mb-3">{project.description}</p>
-                <p className="text-xs text-primary font-medium">📈 {project.impact}</p>
+                <div className="flex items-center justify-between gap-2 flex-wrap">
+                  <p className="text-xs text-primary font-medium">📈 {project.impact}</p>
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      View
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </a>
+                  )}
+                </div>
               </div>
             </StaggerItem>
           ))}

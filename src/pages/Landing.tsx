@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import profileImg from "@/assets/heroimg.webp";
+import profileImg from "@/assets/heroimg.jpg";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const pathways = [

@@ -25,12 +25,13 @@ export const webProjects: Project[] = [
       "Multi-currency wallet management dashboard",
       "Transaction history with export capabilities",
     ],
+    live: "https://www.cowris.com/",
   },
   {
     title: "Wakanda CRM",
     description:
       "Multi-tenant CRM platform for the Wakanda ecosystem, managing client relationships and business workflows with real-time updates and role-based access control.",
-    image: "/projects/wakandacrm0.png",
+    image: "/projects/wakandacrm0.jpg",
     tags: ["Next.js", "Tailwind", "Node.js", "TypeScript"],
     impact: "Streamlined client management for 500+ businesses",
     role: "Lead Fullstack Developer",
@@ -40,6 +41,7 @@ export const webProjects: Project[] = [
       "Role-based access control for teams of all sizes",
       "Integrated with Wakanda payment ecosystem",
     ],
+    live: "https://app.wakanda-business.com/signin",
   },
   {
     title: "Wakanda Business",
@@ -55,6 +57,7 @@ export const webProjects: Project[] = [
       "Integrated messaging between buyers and sellers",
       "Mobile-responsive storefront builder",
     ],
+    live: "https://www.wakanda-business.com/",
   },
   {
     title: "Pureworker",
@@ -70,6 +73,7 @@ export const webProjects: Project[] = [
       "Integrated payment processing",
       "Rating and review system for trust building",
     ],
+    live: "https://pureworker.com/",
   },
   {
     title: "Nairaboom",
@@ -85,6 +89,7 @@ export const webProjects: Project[] = [
       "User wallet and transaction history",
       "Referral and loyalty program system",
     ],
+    live: "https://nairaboom.ng/",
   },
   {
     title: "Crestbase",
@@ -100,6 +105,7 @@ export const webProjects: Project[] = [
       "Virtual tour and media gallery per listing",
       "Inquiry and messaging system",
     ],
+    live: "https://crestbasehq.com/",
   },
   {
     title: "Kudeeexpress",
@@ -115,6 +121,7 @@ export const webProjects: Project[] = [
       "Customer order management portal",
       "Admin dashboard for operations oversight",
     ],
+    live: "https://kudeeexpress.com/",
   },
   {
     title: "Saldams",
@@ -130,12 +137,13 @@ export const webProjects: Project[] = [
       "Client portal for order history",
       "Operations dashboard for dispatch team",
     ],
+    live: "https://saldamslogistical.com/",
   },
   {
     title: "Edgetechies",
     description:
       "Tech agency website showcasing services, portfolio, and expertise with a modern, performance-optimized design built on Nuxt.js.",
-    image: "/projects/edgetechiesm.png",
+    image: "/projects/edgetechiesm.jpg",
     tags: ["Vue/Nuxt.js", "SCSS"],
     impact: "Company's primary lead generation platform",
     role: "Frontend Developer",
@@ -145,12 +153,13 @@ export const webProjects: Project[] = [
       "Portfolio section with filterable projects",
       "Contact form with lead capture integration",
     ],
+    live: "http://edgetechies.com",
   },
   {
     title: "NFTHUB",
     description:
       "NFT marketplace for discovering, buying, and showcasing digital assets, built with a modern design system and Web3-ready architecture.",
-    image: "/projects/nfthub.png",
+    image: "/projects/nfthub.jpg",
     tags: ["React", "TypeScript", "Chakra UI", "Tailwind"],
     impact: "Marketplace platform for the growing NFT ecosystem",
     role: "Frontend Developer",
@@ -160,6 +169,7 @@ export const webProjects: Project[] = [
       "Creator profiles and minting showcase",
       "Responsive design with Chakra UI components",
     ],
+    live: "https://nfthub-nine.vercel.app",
   },
   {
     title: "Wakanda Community",
@@ -175,6 +185,7 @@ export const webProjects: Project[] = [
       "Resource sharing and event listings",
       "Server-side rendering for fast initial loads",
     ],
+    live: "https://wakanda.community/",
   },
   {
     title: "Movies Website",
@@ -190,6 +201,7 @@ export const webProjects: Project[] = [
       "Watchlist feature with local storage persistence",
       "Responsive design for mobile and desktop",
     ],
+    live: "https://universalmovies.netlify.app/",
   },
   {
     title: "Payment Hoob",
@@ -238,6 +250,7 @@ export const mobileProjects: Project[] = [
       "Offline-first architecture with background sync",
       "C++ native modules for high-performance processing",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.cydeneexpress",
   },
   {
     title: "Interpocket",
@@ -253,6 +266,7 @@ export const mobileProjects: Project[] = [
       "Spending insights and monthly reports",
       "TypeScript codebase for long-term maintainability",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.interpocket.v1",
   },
   {
     title: "Cowris Mobile",
@@ -268,6 +282,7 @@ export const mobileProjects: Project[] = [
       "Transaction history and export",
       "Biometric authentication for account security",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.cowris",
   },
   {
     title: "PowerUp",
@@ -283,6 +298,7 @@ export const mobileProjects: Project[] = [
       "Push notifications for workout reminders",
       "Firebase real-time data sync across devices",
     ],
+    live: "https://qrs.ly/d8chict",
   },
   {
     title: "Pureworker",
@@ -298,6 +314,7 @@ export const mobileProjects: Project[] = [
       "Real-time job status tracking",
       "Rating and review system for quality assurance",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.pure_worker_app",
   },
   {
     title: "LiveEasy",
@@ -313,6 +330,7 @@ export const mobileProjects: Project[] = [
       "Django REST API for backend services",
       "Firebase push notifications for real-time updates",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.simplepark.live_easy",
   },
   {
     title: "Wakanda Business",
@@ -328,6 +346,7 @@ export const mobileProjects: Project[] = [
       "In-app customer messaging",
       "C++ native modules for native performance",
     ],
+    live: "https://play.google.com/store/apps/details?id=wakandabusiness.app&hl=en_US",
   },
   {
     title: "Crestbase",
@@ -343,6 +362,7 @@ export const mobileProjects: Project[] = [
       "Agent contact and viewing scheduler",
       "Image gallery with virtual tour support",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.crestbase.crestbasemobileapp&pcampaignid=web_share",
   },
   {
     title: "Wakanda APP",
@@ -358,6 +378,7 @@ export const mobileProjects: Project[] = [
       "Community feed and user interactions",
       "Deep-linked navigation for seamless experience",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.african_founders.Wakanda",
   },
   {
     title: "Puzzle Finance APP",
@@ -388,6 +409,7 @@ export const mobileProjects: Project[] = [
       "Order tracking and push notifications",
       "Firebase for real-time inventory updates",
     ],
+    live: "https://play.google.com/store/apps/details?id=com.ebimarketplaceapp.ebimarketplace",
   },
   {
     title: "Rudo APP",

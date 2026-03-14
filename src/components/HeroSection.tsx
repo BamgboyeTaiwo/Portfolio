@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "@/assets/heroimg.webp";
+import profileImg from "@/assets/heroimg.jpg";
 
 const techBadges = ["React", "React Native", "Node.js", "TypeScript", "Next.js", "Flutter", "Django", "PostgreSQL", "AWS"];
 

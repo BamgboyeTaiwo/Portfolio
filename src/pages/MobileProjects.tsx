@@ -52,7 +52,10 @@ const MobileProjects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
+                      width={800}
+                      height={1200}
                       loading={index === 0 ? "eager" : "lazy"}
+                      decoding="async"
                       className="w-auto h-72 lg:h-96 object-contain rounded-2xl shadow-lg"
                     />
                   </div>
@@ -79,8 +82,21 @@ const MobileProjects = () => {
                       ))}
                     </ul>
 
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium w-fit">
-                      📈 {project.impact}
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
+                        📈 {project.impact}
+                      </div>
+                      {project.live && (
+                        <a
+                          href={project.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 text-primary text-sm font-medium hover:bg-primary/10 transition-colors"
+                        >
+                          {project.live.includes("play.google.com") ? "Play Store" : "View Live"}
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
