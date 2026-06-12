@@ -47,13 +47,13 @@ const Navbar = () => {
 
   const handleNavClick = (href: string) => {
     if (href.startsWith("#")) {
-      if (!isSoftwarePage) {
+      if (location.pathname === "/software") {
+        document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+      } else {
         navigate("/software");
         setTimeout(() => {
           document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
         }, 400);
-      } else {
-        document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
       }
     } else {
       navigate(href);
